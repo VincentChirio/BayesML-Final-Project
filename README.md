@@ -498,7 +498,7 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 ### Posteriors for Healthy Patient
 
-![output2](https://github.com/user-attachments/assets/940c0396-13e4-470a-a412-35de63e50e1a)
+![output2](https://github.com/user-attachments/assets/7f276122-c1a9-485b-a5dc-e2de76930380)
 
 ### Posteriors for Single-Diagnosis Patient
 
@@ -512,7 +512,7 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 <img width="579" alt="Screenshot 2025-03-12 at 2 02 42 PM" src="https://github.com/user-attachments/assets/51d0bc26-047f-4ed9-9838-97da8844a0d4" />
 
-* std_ratio: Ratio of average standard deviation in Bayesian Credible Interval for misclassified vs. correctly classified observations. Mean Misclassified Standard Deviation / Mean Correct Standard Deviation.
+**std_ratio: Ratio of average standard deviation in Bayesian Credible Interval for misclassified vs. correctly classified observations. Mean Misclassified Standard Deviation / Mean Correct Standard Deviation.**
 
 - The MAP predictions outperform the base model predictions in terms of AUC in all but one diagnosis category!
 - Treating our standard deviation ratio as a measure of uncertainty, the consistent occurence of values >1 suggests that incorrect predictions are often associated with wide credible intervals, or higher uncertainty.
