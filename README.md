@@ -528,9 +528,18 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 ![output](https://github.com/user-attachments/assets/40ccdbff-d197-46ab-aef9-7149a16f3c14)
 
 ### Evaluation Metrics
+
 <img width="579" alt="Screenshot 2025-03-12 at 2 02 42 PM" src="https://github.com/user-attachments/assets/51d0bc26-047f-4ed9-9838-97da8844a0d4" />
+
+* std_ratio: Ratio of average standard deviation in Bayesian Credible Interval for misclassified vs. correctly classified observations. Mean Misclassified Standard Deviation / Mean Correct Standard Deviation.
+
+- The MAP predictions outperform the base model predictions in terms of AUC in all but one diagnosis category!
+- Treating our standard deviation ratio as a measure of uncertainty, the consistent occurence of values >1 suggests that incorrect predictions are often associated with wide credible intervals, or higher uncertainty.
 
 ## Practical Applications/Future Work
 
 # Conclusion (1 minute)
+
+- As advanced deep learning models continue to be popularized in the field of radiology and medicine broadly, it is essential to be robust regarding the reliability of these model's parameters and resulting predictions.
+- On this project, we hoped to shed light on where uncertainty lies in the deployment of these models, first in the underlying feature space by visualizing  
 
