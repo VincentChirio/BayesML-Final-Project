@@ -548,7 +548,7 @@ To model probabilistic relationships and estimate prediction uncertainty, we con
 
 - Communicating uncertainty in model predictions to physicians.
 - Flagging large credible intervals.
-- Proof of concept of efficient transfer learning embedding Bayesian methods.
+- Proof of concept of efficient transfer learning, integrating Bayesian measures of uncertainty.
 
 # Conclusion
 
