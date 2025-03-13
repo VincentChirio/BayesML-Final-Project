@@ -495,7 +495,7 @@ TorchXRayVision: pre-trained deep learning model specifically designed for chest
 To efficiently use the deep representations from TorchXRayVision, we apply a two-step feature extraction pipeline:
 
 1.	Feature Extraction from Pre-trained Model
-* We extract feature embeddings from the penultimate layer of the TorchXRayVision model.
+* We extract 1024 feature embeddings from the penultimate layer of the TorchXRayVision model.
 * These embeddings represent high-level radiological features learned from extensive training on chest X-ray datasets.
   
 2.	Dimensionality Reduction using PCA
@@ -515,6 +515,8 @@ To model probabilistic relationships and estimate prediction uncertainty, we con
 3.	Hill Climbing Estimator
 * A heuristic-based approach that iteratively optimizes the network structure by adding, removing, or reversing edges based on likelihood improvements.
 * While this method can find better structures, it is computationally intensive.
+
+![bayestree](https://github.com/VincentChirio/BayesML-Final-Project/blob/main/images/bayes_net_tree.png)
 
 
 ## Evaluating/Comparing Results
