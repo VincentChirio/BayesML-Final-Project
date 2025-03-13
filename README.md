@@ -525,12 +525,12 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 ### Posteriors for Multiple-Diagnosis Patient
 
+![output](https://github.com/user-attachments/assets/40ccdbff-d197-46ab-aef9-7149a16f3c14)
+
 ### Evaluation Metrics
 <img width="579" alt="Screenshot 2025-03-12 at 2 02 42 PM" src="https://github.com/user-attachments/assets/51d0bc26-047f-4ed9-9838-97da8844a0d4" />
 
-
 ## Practical Applications/Future Work
-
 
 # Conclusion (1 minute)
 
