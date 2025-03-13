@@ -538,8 +538,12 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 ## Practical Applications/Future Work
 
+- Communicating uncertainty in model predictions to physicians.
+- Flagging large credible intervals.
+- Proof of concept of efficient transfer learning embedding Bayesian methods.
+
 # Conclusion (1 minute)
 
-- As advanced deep learning models continue to be popularized in the field of radiology and medicine broadly, it is essential to be robust regarding the reliability of these model's parameters and resulting predictions.
-- On this project, we hoped to shed light on where uncertainty lies in the deployment of these models, first in the underlying feature space by visualizing  
+- As advanced deep learning models continue to be popularized in the field of radiology and medicine broadly, it is essential to be robust regarding the reliability of these model's parameters and resulting predictions due to the high stakes nature of this domain.
+- On this project, we hoped to shed light on where uncertainty lies in the deployment of these models, first in the underlying feature space by visualizing areas of uncertainty in the convolutional layers of a CNN imaging diagnostic model using MCMC dropout layers, and second, in the final output layer of this model by utilizing a deep learning model as a feature extractor, to train a Bayes Net and measure the uncertainty in the final predictions.
 
