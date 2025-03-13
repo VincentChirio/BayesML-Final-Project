@@ -486,7 +486,7 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 ---
 
-# Multi-Class Bayes Net with Uncertainty (3-4 minutes)
+# Multi-Class Bayes Net with Uncertainty
 
 ## Base Model
 TorchXRayVision: pre-trained deep learning model specifically designed for chest X-ray analysis. TorchXRayVision provides robust feature extraction from X-ray images, leveraging models trained on large-scale medical datasets.
@@ -548,7 +548,7 @@ To model probabilistic relationships and estimate prediction uncertainty, we con
 - Flagging large credible intervals.
 - Proof of concept of efficient transfer learning embedding Bayesian methods.
 
-# Conclusion (1 minute)
+# Conclusion
 
 - As advanced deep learning models continue to be popularized in the field of radiology and medicine broadly, it is essential to be robust regarding the reliability of these model's parameters and resulting predictions due to the high stakes nature of this domain.
 - On this project, we hoped to shed light on where uncertainty lies in the deployment of these models, first in the underlying feature space by visualizing areas of uncertainty in the convolutional layers of a CNN imaging diagnostic model using MCMC dropout layers, and second, in the final output layer of this model by utilizing a deep learning model as a feature extractor, to train a Bayes Net and measure the uncertainty in the final predictions.
