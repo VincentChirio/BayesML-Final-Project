@@ -486,25 +486,6 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 ---
 
-
-# Introduction (1 minute)
-
-## Motivation
-
-
-# Pneumonia Uncertainty Visualization with MCMC Dropout (3-4 minutes)
-
-## Base Model
-
-## Dropout Layers
-
-## Metrics (Variance in output, spatial uncertainty)
-
-## Challenges
-
-## Robustness
-
-
 # Multi-Class Bayes Net with Uncertainty (3-4 minutes)
 
 ## Base Model
