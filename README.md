@@ -291,7 +291,7 @@ To determine whether spatial uncertainty—visualized through uncertainty heatma
 ### 1. **prediction interval = (0.048, 0.051) -> Normal**
 
  
-![Spatial Map 1](images/spatial_map_abnormal.png)
+![Spatial Map 1](images/spatial_map_normal.png)
 
 
 ---
@@ -299,7 +299,7 @@ To determine whether spatial uncertainty—visualized through uncertainty heatma
 ### 2. **prediction interval = (0.064, 0.066) -> Normal**
 
 
-![Spatial Map 2](images/spatial_map_normal.png)
+![Spatial Map 2](images/spatial_map_abnormal.png)
 
 
 
