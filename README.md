@@ -489,10 +489,33 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 # Multi-Class Bayes Net with Uncertainty (3-4 minutes)
 
 ## Base Model
+TorchXRayVision: pre-trained deep learning model specifically designed for chest X-ray analysis. TorchXRayVision provides robust feature extraction from X-ray images, leveraging models trained on large-scale medical datasets.
 
 ## Feature Extraction/Engineering
+To efficiently use the deep representations from TorchXRayVision, we apply a two-step feature extraction pipeline:
+
+1.	Feature Extraction from Pre-trained Model
+* We extract feature embeddings from the penultimate layer of the TorchXRayVision model.
+* These embeddings represent high-level radiological features learned from extensive training on chest X-ray datasets.
+  
+2.	Dimensionality Reduction using PCA
+* Principal Component Analysis (PCA) is applied to reduce the high-dimensional feature space while preserving essential information.
+* We retain 25 principal components, which explain 95% of the variance, ensuring a balance between reducing computational complexity and maintaining discriminative power.
 
 ## Bayes Net Training
+create Bayesian network( manual, tree estimator, hill climb estimator)
+To model probabilistic relationships and estimate prediction uncertainty, we construct a Bayesian Network using different learning approaches:
+1.	Manual Bayesian Network Construction
+* We define the network structure connect image features to pathodology categories.
+
+2.	Tree Augmented Naïve Bayes (TAN) Estimator
+* A faster and more scalable alternative, the tree-based Bayesian structure learning algorithm automatically identifies dependencies between features.
+* This method retains the simplicity of Naïve Bayes while allowing dependencies between certain features, improving model expressiveness.
+
+3.	Hill Climbing Estimator
+* A heuristic-based approach that iteratively optimizes the network structure by adding, removing, or reversing edges based on likelihood improvements.
+* While this method can find better structures, it is computationally intensive.
+
 
 ## Evaluating/Comparing Results
 
