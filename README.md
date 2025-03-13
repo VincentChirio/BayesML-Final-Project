@@ -515,6 +515,20 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 
 ## Evaluating/Comparing Results
 
+### Posteriors for Healthy Patient
+
+![output2](https://github.com/user-attachments/assets/940c0396-13e4-470a-a412-35de63e50e1a)
+
+### Posteriors for Single-Diagnosis Patient
+
+![output](https://github.com/user-attachments/assets/0e44ea7c-b3ee-401a-b6bd-09c47b9fd7b3)
+
+### Posteriors for Multiple-Diagnosis Patient
+
+### Evaluation Metrics
+<img width="579" alt="Screenshot 2025-03-12 at 2 02 42 PM" src="https://github.com/user-attachments/assets/51d0bc26-047f-4ed9-9838-97da8844a0d4" />
+
+
 ## Practical Applications/Future Work
 
 
