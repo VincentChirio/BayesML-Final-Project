@@ -491,6 +491,8 @@ However, the improvement—from 28% to 31%—is relatively small. In practice, s
 ## Base Model
 TorchXRayVision: pre-trained deep learning model specifically designed for chest X-ray analysis. TorchXRayVision provides robust feature extraction from X-ray images, leveraging models trained on large-scale medical datasets.
 
+Based on this paper: https://arxiv.org/pdf/1608.06993
+
 ## Feature Extraction/Engineering
 To efficiently use the deep representations from TorchXRayVision, we apply a two-step feature extraction pipeline:
 
